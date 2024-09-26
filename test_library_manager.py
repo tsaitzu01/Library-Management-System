@@ -13,3 +13,7 @@ def test_list_books():
     library = ["Book A"]
     assert list_books(library) == ["Book A"]
 
+def test_search_book():
+    library = ["Book A", "Book B"]
+    assert search_book(library, "Book A") == ["Book A"]
+
